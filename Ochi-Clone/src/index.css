@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'MyFont';
+  /* tum jo naam doge wahi Tailwind me use hoga */
+  src: url('./assets/fonts/myfont1.ttf') format('truetype');
+  font-weight: normal;
+  /* agar bold version hai to 700 likh sakte ho */
+  font-style: normal;
+}
+
+body {
+  font-family: 'myfont1', sans-serif;
+}
